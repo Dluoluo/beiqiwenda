@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=640,user-scalable=no">
@@ -8,16 +9,75 @@
     <!-- 引入样式 -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/swiper-3.4.2.min.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
 
+    <title>北汽足球问答</title>
+</head>
+
+<body>
+    <div class="swiper-container swiper-wenda">
+        <a href="javascript:;" class="logo">
+            <img src="./img/logo.png">
+        </a>
+        <div class="swiper-wrapper">
+            <!-- 首页 -->
+            <div class="swiper-slide">
+                <div class="shouye">
+                    <h1 class="shouye-title"></h1>
+                    <input type="button" value="开始答题" class="but-dati">
+                    <input type="button" value="排行榜" class="but-paihang">
+                    <a href="javascript:;">活动规则</a>
+                </div>
+            </div>
+            <!-- 二维码 -->
+            <div class="swiper-slide">
+                <div class="erweima">
+                    <div class="erweima-img"></div>
+                    <div class="weweima-text"></div>
+                </div>
+            </div>
+            <!-- 排行榜 -->
+            <div class="swiper-slide">
+                <div class="rankings">
+                    <h1 class="rankings-title">
+                        <div class="rankings-list"></div>
+                        <h3 class="rankings-h3"></h3>
+                        <input type="button" value="马上认证" class="but-renzheng">
+                        <input type="button" value="返回" class="but-return">
+                </div>
+            </div>
+            <!-- 问答 -->
+            <div class="swiper-slide">
+                <div class="answer">
+                    <div class="answer-jishi"></div>
+                    <div class="answer-subject"></div>
+                    <ul class="answer-list">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 结束 -->
+            <div class="swiper-slide">
+                <div class="end">
+                    <a href="javascript:;" class="end-share"></a>
+                    <div class="end-alert">
+                        <h1 class="end-alert-title"></h1>
+                        <div class="end-alert-text"></div>
+                    </div>
+                    <input type="button" value="再来一次" class="but-again">
+                    <input type="button" value="排行榜" class="but-rankings">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     <!-- 引入js -->
     <script src="./js/jquery.js"></script>
     <script src="./js/swiper-3.4.2.jquery.min.js"></script>
-    <title>北汽足球问答</title>
-</head>
-<body>
-    
-
     <script src="./js/index.js"></script>
 </body>
+
 </html>
