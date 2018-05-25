@@ -17,14 +17,13 @@
 
 <body>
     <div class="swiper-container swiper-wenda">
-
+        <a href="javascript:;" class="logo">
+            <img src="./img/logo.png">
+        </a>
         <div class="swiper-wrapper">
             <!-- 首页 -->
             <div class="swiper-slide">
                 <div class="shouye">
-                    <a href="javascript:;" class="logo">
-                        <img src="./img/logo.png">
-                    </a>
                     <h1 class="shouye-title"></h1>
                     <input type="button" value="开始答题" class="but-dati">
                     <input type="button" value="排行榜" class="but-paihang">
@@ -34,9 +33,6 @@
             <!-- 二维码 -->
             <div class="swiper-slide">
                 <div class="erweima">
-                    <a href="javascript:;" class="logo">
-                        <img src="./img/logo.png">
-                    </a>
                     <div class="erweima-img"></div>
                     <div class="weweima-text"></div>
                 </div>
@@ -44,47 +40,44 @@
             <!-- 排行榜 -->
             <div class="swiper-slide">
                 <div class="rankings">
-                    <a href="javascript:;" class="logo">
-                        <img src="./img/logo.png">
-                    </a>
                     <h1 class="rankings-title"></h1>
                     <ul class="mCustomScrollbar rankings-list" data-mcs-theme="dark">
-                            <li>
-                                <span class="rankings-rank">01</span>
-                                <img src="" class="rankings-rank-img">
-                                <span class="rankings-name"></span>
-                                <span class="rankings-num"></span>
-                            </li>
-                            <li>
-                                <span class="rankings-rank">02</span>
-                                <img src="" class="rankings-rank-img">
-                                <span class="rankings-name"></span>
-                                <span class="rankings-num"></span>
-                            </li>
-                            <li>
-                                <span class="rankings-rank">03</span>
-                                <img src="" class="rankings-rank-img">
-                                <span class="rankings-name"></span>
-                                <span class="rankings-num"></span>
-                            </li>
-                            <li>
-                                <span class="rankings-rank">04</span>
-                                <img src="" class="rankings-rank-img">
-                                <span class="rankings-name"></span>
-                                <span class="rankings-num"></span>
-                            </li>
-                            <li>
-                                <span class="rankings-rank">05</span>
-                                <img src="" class="rankings-rank-img">
-                                <span class="rankings-name"></span>
-                                <span class="rankings-num"></span>
-                            </li>
-                            <li>
-                                <span class="rankings-rank">06</span>
-                                <img src="" class="rankings-rank-img">
-                                <span class="rankings-name"></span>
-                                <span class="rankings-num"></span>
-                            </li>
+                        <li>
+                            <span class="rankings-rank">01</span>
+                            <img src="" class="rankings-rank-img">
+                            <span class="rankings-name"></span>
+                            <span class="rankings-num"></span>
+                        </li>
+                        <li>
+                            <span class="rankings-rank">02</span>
+                            <img src="" class="rankings-rank-img">
+                            <span class="rankings-name"></span>
+                            <span class="rankings-num"></span>
+                        </li>
+                        <li>
+                            <span class="rankings-rank">03</span>
+                            <img src="" class="rankings-rank-img">
+                            <span class="rankings-name"></span>
+                            <span class="rankings-num"></span>
+                        </li>
+                        <li>
+                            <span class="rankings-rank">04</span>
+                            <img src="" class="rankings-rank-img">
+                            <span class="rankings-name"></span>
+                            <span class="rankings-num"></span>
+                        </li>
+                        <li>
+                            <span class="rankings-rank">05</span>
+                            <img src="" class="rankings-rank-img">
+                            <span class="rankings-name"></span>
+                            <span class="rankings-num"></span>
+                        </li>
+                        <li>
+                            <span class="rankings-rank">06</span>
+                            <img src="" class="rankings-rank-img">
+                            <span class="rankings-name"></span>
+                            <span class="rankings-num"></span>
+                        </li>
                     </ul>
                     <h3 class="rankings-h3">您单次最多答对了XX题</h3>
                     <input type="button" value="马上认证" class="but-renzheng">
@@ -94,9 +87,6 @@
             <!-- 问答 -->
             <div class="swiper-slide">
                 <div class="answer">
-                    <a href="javascript:;" class="logo">
-                        <img src="./img/logo.png">
-                    </a>
                     <div class="answer-jishi">15秒</div>
                     <div class="answer-subject">2014年世界杯冠军球队是？</div>
                     <ul class="answer-list">
@@ -109,17 +99,71 @@
             </div>
             <!-- 积分不足 -->
             <div class="swiper-slide">
-                <div class="end">
-                    <a href="javascript:;" class="logo">
-                        <img src="./img/logo.png">
-                    </a>
-                    <a href="javascript:;" class="end-share"></a>
-                    <div class="end-alert">
-                        <h1 class="end-alert-title"></h1>
-                        <div class="end-alert-text"></div>
+                <div class="integral">
+                    <div class="alert">
+                        <a href="javascript:;" class="integral-close"></a>
+                        <img src="./img/alert-jifen.png" class="integral-img">
+                        <h1 class="integral-title">您的积分不足</br>请明天再来</h1>
                     </div>
-                    <input type="button" value="再来一次" class="but-again">
-                    <input type="button" value="排行榜" class="but-rankings">
+                </div>
+            </div>
+            <!-- 机会用尽 -->
+            <div class="swiper-slide">
+                <div class="runout">
+                    <div class="alert">
+                        <a href="javascript:;" class="runout-close"></a>
+                        <img src="./img/alert-runout.png" class="runout-img">
+                        <h1 class="runout-title">今日机会已用尽</br>请明天再来</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- 继续答题 -->
+            <div class="swiper-slide">
+                <div class="continue">
+                    <div class="alert">
+                        <a href="javascript:;" class="continue-close"></a>
+                        <img src="./img/alert-continue.png" class="continue-img">
+                        <h1 class="continue-title">是否消耗50积分</br>继续参与答题</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- 活动规则 -->
+            <div class="swiper-slide">
+                <div class="rule">
+                    <div class="rule-alert">
+                        <a href="javascript:;" class="rule-close"></a>
+                        <h1 class="rule-title"></h1>
+                        <ul class="rule-list">
+                            <li>
+                                <span class="rule-num">1</span>
+                                 活动时间为6月4日-12日，您可通过公众号首页菜单、公众号首次关注欢迎语、或通过其它用户的分享进入本游戏；
+                            </li>
+                            <li>
+                                <span class="rule-num">2</span>
+                                 点击链接进入答题H5小游戏，每人每日可免费参与一次游戏，注册及认证车主身份用户可使用北京汽车微服务app内50积分，换取额外一次答题机会（每日每人最多可兑换一次机会），完成注册及补充资料并认证车主，即可获得100积分；
+                            </li>
+                            <li>
+                                <span class="rule-num">3</span>
+                                 未关注北京汽车微服务公众号的用户仅可参与一次游戏，如想获得每日一次免费游戏机会请先关注公众号；
+                            </li>
+                            <li>
+                                <span class="rule-num">4</span>
+                                 未关注北京汽车微服务公众号的用户仅可参与一次游戏，如想获得每日一次免费游戏机会请先关注公众号；
+                            </li>
+                            <li>
+                                <span class="rule-num">5</span>
+                                 答对题数不设上限，不限答题总时长，取单次答对题数最多记录作为最好成绩记入总排行榜；
+                            </li>
+                            <li>
+                                <span class="rule-num">6</span>
+                                 游戏结束后将记录您的单次最好成绩，总排行榜将会显示排名前20的用户名称及成绩。名单中昵称显示绿色为已完成车主认证的用户，非认证车主以黑色字显示（含微信粉丝、已完成注册未认证车主身份的用户，未关注公众号的用户将无法计入名次）；
+                            </li>
+                            <li>
+                                <span class="rule-num">7</span>
+                                 活动结束后，排名最靠前的三位认证车主可得正品球衣+世界杯足球一套（价值898元），第4至第10位认证车主可得世界杯短袖球衣一件（价值699元），第11至第20名认证车主可获得世界杯训练用球一枚（价值199元），请您记得尽快完成认证哦！
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
