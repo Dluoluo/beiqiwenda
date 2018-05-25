@@ -14,6 +14,7 @@ html,body,.swiper-wenda,.shouye,.erweima,.rankings,.answer,.end{
     position: absolute;
     top: 28px;
     left: 31px;
+    z-index: 100;
 }
 .shouye-title{
     height: 266px;
@@ -50,4 +51,16 @@ input{
     letter-spacing: 10px;
     color: #ffffff;
     text-decoration: underline;
+}
+.erweima-img{
+    width: 345px;
+    height: 345px;
+    margin: 172px auto 0;
+    background: url(../img/erweima.png)no-repeat;
+}
+.weweima-text{
+    width: 358px;
+    height: 192px;
+    margin: 55px auto 0;
+    background: url(../img/erweima-text.png)no-repeat;
 }
