@@ -97,34 +97,16 @@
                     </ul>
                 </div>
             </div>
-            <!-- 积分不足 -->
+            <!-- 答题结束 -->
             <div class="swiper-slide">
-                <div class="integral">
-                    <div class="alert">
-                        <a href="javascript:;" class="integral-close"></a>
-                        <img src="./img/alert-jifen.png" class="integral-img">
-                        <h1 class="integral-title">您的积分不足</br>请明天再来</h1>
+                <span class="end-share">点我分享好友来挑战</span>
+                <div class="end">
+                    <div class="end-alert">
+                        <div class="end-title"></div>
+                        <div class="end-p">您本次答对了XX题</br>您单次最多答对了XX</div>
                     </div>
-                </div>
-            </div>
-            <!-- 机会用尽 -->
-            <div class="swiper-slide">
-                <div class="runout">
-                    <div class="alert">
-                        <a href="javascript:;" class="runout-close"></a>
-                        <img src="./img/alert-runout.png" class="runout-img">
-                        <h1 class="runout-title">今日机会已用尽</br>请明天再来</h1>
-                    </div>
-                </div>
-            </div>
-            <!-- 继续答题 -->
-            <div class="swiper-slide">
-                <div class="continue">
-                    <div class="alert">
-                        <a href="javascript:;" class="continue-close"></a>
-                        <img src="./img/alert-continue.png" class="continue-img">
-                        <h1 class="continue-title">是否消耗50积分</br>继续参与答题</h1>
-                    </div>
+                    <input type="button" value="再玩一次" class="but-again">
+                    <input type="button" value="排行榜" class="but-paihang">
                 </div>
             </div>
             <!-- 活动规则 -->
@@ -169,6 +151,26 @@
         </div>
     </div>
     </div>
+    <!-- 积分不足 -->
+    <div class="integral-alert alert">
+        <a href="javascript:;" class="integral-close"></a>
+        <img src="./img/alert-jifen.png" class="integral-img">
+        <h1 class="integral-title">您的积分不足</br>请明天再来</h1>
+    </div>
+    <!-- 机会用尽 -->
+    <div class="runout-alert alert">
+        <a href="javascript:;" class="runout-close"></a>
+        <img src="./img/alert-runout.png" class="runout-img">
+        <h1 class="runout-title">今日机会已用尽</br>请明天再来</h1>
+    </div>
+    <!-- 继续答题 -->
+    <div class="continue-alert alert">
+        <a href="javascript:;" class="continue-close"></a>
+        <img src="./img/alert-continue.png" class="continue-img">
+        <h1 class="continue-title">是否消耗50积分</br>继续参与答题</h1>
+        <span class="continue-but">确定</span>
+    </div>
+    <div class="mengceng"></div>
     <!-- 引入js -->
     <script src="./js/jquery.js"></script>
     <script src="./js/jquery.mCustomScrollbar.js"></script>
