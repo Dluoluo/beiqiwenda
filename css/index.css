@@ -64,3 +64,123 @@ input{
     margin: 55px auto 0;
     background: url(../img/erweima-text.png)no-repeat;
 }
+.rankings-title{
+    width: 228px;
+    height: 78px;
+    margin: 110px auto 11px;
+    background: url(../img/paihangbang.png)no-repeat;
+}
+.rankings-list{
+    margin-left: 28px;
+}
+.mCSB_outside + .mCSB_scrollTools{
+    right: -39px;
+    top: -30px;
+}
+.rankings-list li{
+    height: 66px;
+    margin-bottom: 10px;
+    background: rgba(137,137,137,0.8);
+    line-height: 66px;
+    overflow: hidden;
+}
+.mCSB_scrollTools{
+    width: 25px;
+    height: 492px;
+    background: url(../img/xiala.png)no-repeat;
+}
+.rankings-list .mCSB_scrollTools .mCSB_buttonUp{
+    width: 13px !important;
+    height: 22px !important;
+    margin-top: 8px;
+    margin-left: 6px;
+    opacity: 1;
+    background: url(../img/top-jian2.png)no-repeat center center;;
+}
+.rankings-list .mCSB_scrollTools .mCSB_buttonDown{
+    width: 13px !important;
+    height: 22px !important;
+    margin-bottom: 8px;
+    margin-left: 6px;
+    opacity: 1;
+    background: url(../img/bot-jian1.png)no-repeat center center;;
+}
+.mCSB_scrollTools a + .mCSB_draggerContainer{
+    margin: 34px 0;
+}
+.rankings-rank,.rankings-rank-img,.rankings-name{
+    float: left;
+    height: 66px;
+    line-height: 66px;
+}
+.rankings-rank-img{
+    width: 77px;
+}
+.rankings-rank{
+    width: 71px;
+    color: #fff;
+    font-size: 37px;
+    font-weight: bold;
+    text-align: center
+}
+.rankings-name{
+    padding-left: 21px;
+    color: #282727;
+    font-size: 26px;
+}
+.rankings-num{
+    float: right;
+    padding:0 18px;
+    color: #fff;
+    font-size: 26px;
+}
+.rankings-h3{
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    margin: 26px 0 14px;
+}
+.but-renzheng{
+    margin-bottom: 14px;
+}
+.but-return{
+    letter-spacing: 25px;
+    padding: 0 80px;
+}
+.answer-jishi{
+    width: 125px;
+    height: 125px;
+    margin-top: 44px;
+    margin-left: 472px;
+    background: url(../img/daojishi.png)no-repeat;
+    text-align: center;line-height: 125px;
+    color: #fcb305;
+    font-size: 35px;
+    font-weight: bold;
+}
+.answer-subject{
+    width: 560px;
+    height: 85px;
+    line-height: 85px;
+    font-size: 32px;
+    margin:88px auto 0;
+    color: black;
+    font-weight: bold;
+    padding-left: 48px;
+    background: url(../img/answer-title-bg.png)no-repeat;
+}
+.answer-list{
+    width: 560px;
+    background: rgba(24,42, 79, 0.7);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.answer-list li{
+    width: 560px;
+    height: 57px;
+    background: url(../img/list-bg.png)no-repeat;
+    margin-top: 34px;
+}
+.answer-list .answer-list-active{
+    background: url(../img/list-active-bg.png)no-repeat;
+}

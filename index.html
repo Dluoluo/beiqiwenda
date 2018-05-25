@@ -9,6 +9,7 @@
     <!-- 引入样式 -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.css">
     <link rel="stylesheet" href="./css/index.css">
 
     <title>北汽足球问答</title>
@@ -46,9 +47,46 @@
                     <a href="javascript:;" class="logo">
                         <img src="./img/logo.png">
                     </a>
-                    <h1 class="rankings-title">
-                    <div class="rankings-list"></div>
-                    <h3 class="rankings-h3"></h3>
+                    <h1 class="rankings-title"></h1>
+                    <ul class="mCustomScrollbar rankings-list" data-mcs-theme="dark">
+                            <li>
+                                <span class="rankings-rank">01</span>
+                                <img src="" class="rankings-rank-img">
+                                <span class="rankings-name"></span>
+                                <span class="rankings-num"></span>
+                            </li>
+                            <li>
+                                <span class="rankings-rank">02</span>
+                                <img src="" class="rankings-rank-img">
+                                <span class="rankings-name"></span>
+                                <span class="rankings-num"></span>
+                            </li>
+                            <li>
+                                <span class="rankings-rank">03</span>
+                                <img src="" class="rankings-rank-img">
+                                <span class="rankings-name"></span>
+                                <span class="rankings-num"></span>
+                            </li>
+                            <li>
+                                <span class="rankings-rank">04</span>
+                                <img src="" class="rankings-rank-img">
+                                <span class="rankings-name"></span>
+                                <span class="rankings-num"></span>
+                            </li>
+                            <li>
+                                <span class="rankings-rank">05</span>
+                                <img src="" class="rankings-rank-img">
+                                <span class="rankings-name"></span>
+                                <span class="rankings-num"></span>
+                            </li>
+                            <li>
+                                <span class="rankings-rank">06</span>
+                                <img src="" class="rankings-rank-img">
+                                <span class="rankings-name"></span>
+                                <span class="rankings-num"></span>
+                            </li>
+                    </ul>
+                    <h3 class="rankings-h3">您单次最多答对了XX题</h3>
                     <input type="button" value="马上认证" class="but-renzheng">
                     <input type="button" value="返回" class="but-return">
                 </div>
@@ -59,17 +97,17 @@
                     <a href="javascript:;" class="logo">
                         <img src="./img/logo.png">
                     </a>
-                    <div class="answer-jishi"></div>
-                    <div class="answer-subject"></div>
+                    <div class="answer-jishi">15秒</div>
+                    <div class="answer-subject">2014年世界杯冠军球队是？</div>
                     <ul class="answer-list">
                         <li></li>
-                        <li></li>
+                        <li class="answer-list-active"></li>
                         <li></li>
                         <li></li>
                     </ul>
                 </div>
             </div>
-            <!-- 结束 -->
+            <!-- 积分不足 -->
             <div class="swiper-slide">
                 <div class="end">
                     <a href="javascript:;" class="logo">
@@ -89,6 +127,7 @@
     </div>
     <!-- 引入js -->
     <script src="./js/jquery.js"></script>
+    <script src="./js/jquery.mCustomScrollbar.js"></script>
     <script src="./js/swiper-3.4.2.jquery.min.js"></script>
     <script src="./js/index.js"></script>
 </body>
