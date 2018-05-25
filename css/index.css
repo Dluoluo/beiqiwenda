@@ -1,7 +1,10 @@
-html,body,.swiper-wenda{
+html,body,.swiper-wenda,.shouye,.erweima,.rankings,.answer,.end{
     width: 100%;
     height: 100%;
     overflow: hidden;
+}
+.erweima,.rankings,.answer,.end{
+    background: rgba(0, 0, 0, 0.6)
 }
 .swiper-wenda{
     background: url(../img/bg.jpg)no-repeat center center;
@@ -11,4 +14,40 @@ html,body,.swiper-wenda{
     position: absolute;
     top: 28px;
     left: 31px;
+}
+.shouye-title{
+    height: 266px;
+    background: url(../img/title1.png)no-repeat;
+    margin-top: 205px;
+}
+input{
+    display: block;
+    width: 272px;
+    height: 74px;
+    line-height: 74px;
+    background: url(../img/but.png)no-repeat;
+    border: none;
+    color: #fff;
+    font-size: 44px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    padding: 0 44px;
+}
+.but-dati{
+    margin-top: 172px;
+}
+.but-paihang{
+    margin-top: 21px;
+    letter-spacing: 25px;
+}
+.shouye-rule{
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: 24px auto 0;
+    font-size: 26px;
+    letter-spacing: 10px;
+    color: #ffffff;
+    text-decoration: underline;
 }
