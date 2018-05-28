@@ -328,8 +328,12 @@ input,.shouye-rule,.weweima-text,.rankings-h3{
 .answer-list li{
     width: 560px;
     height: 57px;
+    line-height: 57px;
     background: url(../img/list-bg.png)no-repeat;
     margin-top: 34px;
+    text-align: center;
+    font-size: 27px;
+    color: #fefefe;
     transition-delay:.8s;
     transition: all .8s;
     transform: translateY(-500px);
@@ -338,7 +342,11 @@ input,.shouye-rule,.weweima-text,.rankings-h3{
     transform: translateY(0);
 }
 .answer-list .answer-list-active{
+    color: black;
     background: url(../img/list-active-bg.png)no-repeat;
+}
+.answer-list-span{
+    margin-right: 35px;
 }
 .alert{
     position: absolute;
@@ -432,6 +440,13 @@ input,.shouye-rule,.weweima-text,.rankings-h3{
     text-align: center;
     line-height: 23px;
     border-radius: 50%;
+}
+.rule-list .mCustomScrollBox .mCSB_container{
+    margin: 0;
+}
+.rule-list #mCSB_2_scrollbar_vertical{
+    /* display: none !important; */
+    visibility: hidden !important;
 }
 .mengceng{
     position: absolute;

@@ -26,3 +26,25 @@ $('.rankings-list').mCustomScrollbar({
     scrollbarPosition: "outside",
     scrollButtons: { enable: true }
 })
+
+$('.rule-list').mCustomScrollbar({
+    theme: "dark",
+    axis: "y",
+    setWidth: "100%",
+    alwaysShowScrollbar: 0 
+})
+
+var oUl = document.querySelector('.rule-list');
+oUl.addEventListener('touchend',function (e) {
+    var oEvent = ev || event;
+    oEvent.cancelBubble = true;
+    oEvent.stopPropagation();
+},false)
+oUl.addEventListener('touchstart', function (e) {
+    oEvent.cancelBubble = true;
+    oEvent.stopPropagation();
+}, false)
+oUl.addEventListener('touchmove', function (e) {
+    oEvent.cancelBubble = true;
+    oEvent.stopPropagation();
+}, false)
